@@ -1,9 +1,0 @@
-export const BASE_URL = import.meta.env.VITE_BASE_URL;
-export const CIRCULAR_URL = `https://backend-saas.bacbonx.com/api/website`;
-export const ASSESSMENT_URL = `${import.meta.env.VITE_BASE_URL}/assessment-service`;
-export const ASSIGNMENT_URL = `${import.meta.env.VITE_BASE_URL}/assignment-service/api`;
-export const VIDEO_URL = `${import.meta.env.VITE_BASE_URL}/video-service`;
-export const ASSET_URL = `${import.meta.env.VITE_ASSET_URL}`;
-export const FAKE_URL = import.meta.env.VITE_FAKE_URL;
-export const AUTH_URL = import.meta.env.VITE_AUTH_URL;
-export const CLMS_URL = import.meta.env.VITE_CLMS_URL;
