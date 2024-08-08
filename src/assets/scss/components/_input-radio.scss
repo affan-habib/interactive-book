@@ -1,0 +1,29 @@
+
+input[type="radio"] + label span {
+    transition: background .2s,
+      transform .2s;
+}
+
+input[type="radio"] + label span:hover,
+input[type="radio"] + label:hover span{
+  transform: scale(1.2);
+} 
+
+input[type="radio"]:checked + label span {
+  background-color: #1F9D55; //bg-green-dark
+  box-shadow: 0px 0px 0px 2px white inset;
+}
+
+input[type="radio"]:checked + label{
+   color: #1F9D55; //text-green-dark
+}
+
+input[type="radio"][value="0"]:checked + label span {
+    background-color: #fd0202; //bg-green-dark
+    box-shadow: 0px 0px 0px 2px white inset;
+  }
+input[type="radio"][value="0"]:checked + label{
+    color: #fd0202; //text-green-dark
+ }
+ 
+ 
